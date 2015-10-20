@@ -5,17 +5,23 @@
  */
 package auctioncentral;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 /**
  *
  * @author asic
  */
 public class AuctionCentral {
-
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Login loginFrame = new Login();
+        loginFrame.setVisible(true);
     }
     
 }
