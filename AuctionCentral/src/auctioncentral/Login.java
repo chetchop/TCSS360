@@ -53,7 +53,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel2.setText("Password");
 
-        jButton1.setText("Login");
+        jButton1.setText("Login Here");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
